@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS Grid Box</title>
+    <style>
+        .tempat_grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-gap: 50px;
+        }
+
+        .item_grid {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tampilan:</h1>
+    <div class="tempat_grid">
+        <div class="item_grid">1</div>
+        <div class="item_grid">2</div>
+        <div class="item_grid">3</div>
+        <div class="item_grid">4</div>
+        <div class="item_grid">5</div>
+        <div class="item_grid">6</div>
+        <div class="item_grid">7</div>
+        <div class="item_grid">8</div>
+        <div class="item_grid">9</div>
+        <div>
+            <p>Kesimpulan skenario 1 adalah : Penggunaan grid memungkinkan penataan item-item di tempat_grid menjadi lebih fleksibel. Hal ini dikarenakan grid menyediakan struktur yang teratur dan modular, sehingga item-item dapat diposisikan dengan mudah sesuai kebutuhan.</p>
+            <p>Kesimpulan skenario 2 adalah : Menunjukkan bagaimana CSS Grid dapat digunakan untuk membuat tata letak grid sederhana. Grid ini terdiri dari tiga kolom yang disusun secara inline, dan setiap kolom berisi tiga kotak. Kotak-kotak tersebut diberi nomor dari 1 sampai 9. Penggunaan CSS Grid memungkinkan tata letak ini dibuat dengan mudah dan rapi, serta responsif.</p>
+            <p>Kesimpulan skenario 3 adalah : Pada tempat_grid, grid gap digunakan untuk mengatur jarak antar item. Terdapat dua jenis grid gap: gap column dan gap row. Gap column digunakan untuk mengatur jarak antar kolom, sedangkan gap row digunakan untuk mengatur jarak antar baris.</p>
+            <p>Kesimpulan skenario 4 adalah : Grid-gap merupakan sebuah properti CSS yang memungkinkan pengaturan jarak antar kolom dan baris pada layout grid secara bersamaan. Dengan menggunakan grid-gap, kita dapat menentukan nilai tunggal untuk mengatur jarak horizontal (column gap) dan vertikal (row gap) secara sekaligus</p>
+        </div>
+    </div>
+    
+</body>
+</html>
